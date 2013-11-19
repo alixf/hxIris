@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="IrisExample" package="com.eolhing.iris.example" version="1.0" />
+
+	<!-- Application -->
+	<app main="Main" />
+	<window width="1280" height="720" background="0x000000" fps="60" resizable="false" borderless="false" vsync="false" fullscreen="false" antialiasing="0" />
+	<window if="android" width="800" height="480" background="0x000000" orientation="landascape" fps="60" resizable="false" borderless="false" vsync="false" fullscreen="true" antialiasing="0" />
+
+	<!-- Source -->
+	<source path="src" />
+	
+	<!-- Assets -->
+	<assets path="assets" />
+	<!-- icon path="assets/nme.svg" /-->
+	
+	<!-- Libs -->
+	<haxelib name="nme" />
+	<haxelib name="Actuate" />
+	<haxelib name="hxOpenFrameworks" />
+	<haxelib name="hsl-1" />
+	<haxelib name="hsl-pico-1" />
+	<haxelib name="hxRtAudio" />
+
+	<ndll name="std" />
+	<ndll name="regexp" />
+	<ndll name="zlib" />
+	<ndll name="nme" haxelib="nme" />
+	<ndll name="hxOpenFrameworks" haxelib="hxOpenFrameworks" />
+	<ndll name="hxRtAudio" haxelib="hxRtAudio" />
+</project>
